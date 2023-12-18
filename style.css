@@ -1,0 +1,88 @@
+body{
+    background-color: #e95858;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+
+}
+
+#title{
+    text-align: center;
+    margin: 25px;
+    font-size: 40px;
+    font-weight: 1000;
+    padding: 5px;
+}
+.item-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 5px;
+
+}
+#content-box-chicken{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: antiquewhite;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+#content-box-beef{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: antiquewhite;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+#content-box-shushi{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: antiquewhite;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+.navbar-brand{
+    font-weight: 800;
+}
+.nav-link{
+    text-align: center;
+    font-weight: 300;
+
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    
+
+    
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+    .navbar-toggler{
+        display: none;
+    }
+
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .navbar-toggler{
+        display: none;
+    }
+
+
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .navbar-toggler{
+        display: none;
+    }
+
+
+}
